@@ -8,15 +8,17 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #555; 
+  color: #777; 
   background: #f7f5f0;
 }
 /* Link Styles */
 
 a {
-  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
   color: #777
 }
+
 a:hover {
   color: #6633ff;
 }
@@ -95,13 +97,16 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #D8DDEE;
-  border-bottom: 4px solid  #ccc;);
+  border-bottom: 4px solid  #ccc;
   border-radius: 6px;
   transition: all .5s;
   color: #777;
 }
 .card:hover {
   border-color: #6878B1;
+}
+.card img {
+    max-width: 100%;
 }
 
 ul.skills {
